@@ -1,0 +1,105 @@
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        body,
+        html {
+            background-color:rgb(255, 255, 255);
+        }
+        
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container .tree-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tree-container .avatar {
+            width: 100vw;
+            left: 4px;
+            top: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0%;
+        }
+        
+        .tree-container .avatar .image {
+            width: 400px;
+            height: 270px;
+            border-radius: 50%;
+        }
+        
+        .tree-container .name-empresa {
+            color: rgba(5, 22, 81, 1);
+            font-size: 60px;
+            text-align: center;
+            font-family: 'Bangers', cursive;
+        }
+        
+        .tree-container .name-curso {
+            color: #4dbf9e;
+            font-size: 33px;
+            text-align: center;
+            font-family: 'Bangers', cursive;
+        }
+        
+        .tree-container .links-container {
+            margin-top: 6px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .link {
+            margin-top: 10px;
+            width: 280px;
+            border: 3px solid #000000;
+            background-color: rgba(231, 19, 19, 0.938);
+            color: #000000;
+            border-radius: 10px;
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'Bangers', cursive;
+            text-align: center;
+            padding: 8px 0;
+        }   
+        .tree-container .socials-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+            margin-top: 10px;
+        }
+        
+        .socials-container .social {
+            transform: scale(0.9);
+            transition: ease 0.2s;
+        }
+        
+        .socials-container .social:hover {
+            transform: scale(1);
+        }
+        
+        .socials-container .social img {
+            width: 45px;
+            height: 48px;
+            border-radius: 10%;
+        }
+        
+        footer {
+            font-family: 'Bangers', cursive;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 8px;
+        }
